@@ -17,7 +17,7 @@
             "logConfiguration": {
                 "logDriver": "awslogs",
                 "options": {
-                    "awslogs-group": "system-dev-blgr-cluster-log",
+                    "awslogs-group": "hashimotopoc-dev-blgr-cluster-log",
                     "awslogs-region": "ap-northeast-1",
                     "awslogs-stream-prefix": "system"
                 }
@@ -30,5 +30,5 @@
     "networkMode": "awsvpc",
     "cpu": "256",
     "memory": "512",
-    "family": "system-dev-blgr-task-definition"
+    "family": "hashimotopoc-dev-blgr-task-definition"
 }
